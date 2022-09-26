@@ -1,8 +1,8 @@
 ---
-title: "Lab4_Test_HTML"
+title: "lab4_HTML"
 author: "Renee"
 date: "`r Sys.Date()`"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
