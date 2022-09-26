@@ -1,5 +1,5 @@
 ---
-title: "lab4_HTML"
+title: "lab4"
 author: "Renee"
 date: "`r Sys.Date()`"
 output: github_document
