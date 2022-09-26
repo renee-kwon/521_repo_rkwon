@@ -1,7 +1,9 @@
 ---
 title: "Lab 4 - Introduction to RStudio and R Markdown. Presentations"
+author: "Renee Kwon"
+date: "October 1, 2022"
 output:
-  html_document:
+  pdf_document:
     toc: true
 editor_options: 
   markdown: 
@@ -155,29 +157,20 @@ At least one must be different to the ones mentioned above.
 Write in your own words what each code chunk option is doing.
 ```
 
-```{r Q5ChunkOptions, error=FALSE, comment='##'}
+```{r Q5ChunkOptions, error=TRUE, comment='##'}
 
-print (x+y)
-x+?
+print(x+y)
+print(x+c)
 ```
 
-The "comment" option allows you to select a character string to be
-printed in front of the code and output of that chunk in our output
-document. In our case, we chose "\##" as the character string, so the
-output document will print a "\##" our output, "6", above.
-
-The "highlight"
-
-| If TRUE, knitr will highlight the source code in the final output. |
-|--------------------------------------------------------------------|
-|                                                                    |
-
-| A character string. Knitr will append the string to the start of each line of results in the final document. |
-|--------------------------------------------------------------------------------------------------------------|
-|                                                                                                              |
-
-> \
-> \
+> *The "comment" option allows you to select a character string to be
+> printed in front of the code and output of that chunk in our output
+> document. In our case, we chose "\##" as the character string, so the
+> output document will print a "\##" our output, "6", above.*
+>
+> *The "error" option, enables display of error messages in the output
+> document. In our case, our error code returned for "print(x+c)" is
+> displayed because we have set the "error" option to TRUE above.*
 
 ### 1.5. YAML Header and document output options
 
@@ -224,7 +217,17 @@ and edit it so that you include an `author` (yourself) and a `date` (lab due dat
 Include what you added below here as well as a fenced Markdown code block.
 ```
 
-YOUR ANSWER GOES HERE
+---
+title: "Lab 4 - Introduction to RStudio and R Markdown. Presentations"
+author: "Renee Kwon"
+date: "October 1, 2022"
+output:
+  html_document:
+    toc: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
 
 ### Creating R Markdown documents
 
@@ -263,7 +266,7 @@ to the GitHub repository for this lab
 and paste the two links below this question.
 ```
 
-YOUR ANSWER GOES HERE
+<https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/lab4.html>
 
 ```{block, type="alert alert-info"}
 #### Question 8
