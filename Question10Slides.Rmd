@@ -3,7 +3,7 @@ title: "DSCI 521 Lab 4 Presentation"
 subtitle: "Question 10"
 author: "Renee Kwon"
 institute: "UBC"
-date: "Due October 1, 2022)"
+date: "Due October 1, 2022"
 output:
   xaringan::moon_reader:
     lib_dir: libs
