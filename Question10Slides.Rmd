@@ -1,16 +1,18 @@
 ---
 title: "DSCI 521 Lab 4 Presentation"
-subtitle: "Question 10"
 author: "Renee Kwon"
-institute: "UBC"
 date: "Due October 1, 2022"
 output:
+  html_document:
+    df_print: paged
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
+      highlightLines: yes
+      countIncrementalSlides: no
+subtitle: Question 10
+institute: UBC
 ---
 
 ## Hello ##
