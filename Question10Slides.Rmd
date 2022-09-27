@@ -3,14 +3,14 @@ title: "DSCI 521 Lab 4 Presentation"
 author: "Renee Kwon"
 date: "Due October 1, 2022"
 output:
+  html_document:
+    df_print: paged
   xaringan::moon_reader:
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: yes
       countIncrementalSlides: no
-  html_document:
-    df_print: paged
 subtitle: Question 10
 institute: UBC
 ---
