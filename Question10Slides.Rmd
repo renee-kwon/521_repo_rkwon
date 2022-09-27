@@ -39,6 +39,7 @@ print(3+4)
 Python Programming for Data Science
 Instructor: Arman Seyed-Ahmadi
 We use python programming in this course, ex:
+
 ```{r}
 print(5+5)
 ```
