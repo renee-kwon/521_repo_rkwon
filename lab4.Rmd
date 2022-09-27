@@ -3,7 +3,7 @@ title: "Lab 4 - Introduction to RStudio and R Markdown. Presentations"
 author: "Renee Kwon"
 date: "October 1, 2022"
 output:
-  pdf_document:
+  html_document:
     toc: true
 editor_options: 
   markdown: 
@@ -266,7 +266,9 @@ to the GitHub repository for this lab
 and paste the two links below this question.
 ```
 
-<https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/lab4.html>
+> [*https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/lab4_HTML.html*](https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/lab4_HTML.html)
+>
+> [*https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/lab4_PDF.pdf*](https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/lab4_PDF.pdf)
 
 ```{block, type="alert alert-info"}
 #### Question 8
@@ -285,7 +287,9 @@ rubric={mechanics:6}
    Paste a link to these files as your answer below.
 ```
 
-YOUR ANSWER GOES HERE
+> [*https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/Lab4Question8.Rmd*](https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/Lab4Question8.Rmd)
+>
+> [*https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/Lab4Question8.html*](https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/Lab4Question8.html)
 
 ```{block, type="alert alert-info"}
 #### Question 9 (Optional)
@@ -299,7 +303,9 @@ rubric={mechanics:1,reasoning:1}
    What do you see? How is it rendered?
 ```
 
-YOUR ANSWER GOES HERE
+[*https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/Lab4Question8.md*](https://github.ubc.ca/MDS-2022-23/DSCI_521_lab4_rkwon/blob/master/Lab4Question8.md){.uri}
+
+*The file is rendered as an HTML file so it is viewable on github.com.*
 
 ```{block, type="alert alert-info"}
 #### Question 10
